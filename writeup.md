@@ -16,9 +16,9 @@ The goals / steps of this project are the following:
 
 [//]: # "Image References"
 
-[image1]: ./images/visualization01.jpg "Visualization 1"
-[image2]: ./images/visualization02.jpg "Visualization 2"
-[image3]: ./images/grayscale.jpg "Gray Scale"
+[image1]: ./images/visualization01.png "Visualization 1"
+[image2]: ./images/visualization02.png "Visualization 2"
+[image3]: ./images/grayscale.png "Gray Scale"
 [image4]: ./images/03_speed60_32x32x3.jpg "Traffic Sign 1"
 [image5]: ./images/12_PriorityRoad_32x32x3.jpg "Traffic Sign 2"
 [image6]: ./images/13_yield_32x32x3.jpg "Traffic Sign 3"

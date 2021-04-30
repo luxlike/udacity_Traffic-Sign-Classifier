@@ -25,6 +25,7 @@ The goals / steps of this project are the following:
 [image7]: ./images/28_ChildrenCrossing_32x32x3.jpg "Traffic Sign 4"
 [image8]: ./images/35_AheadOnly_32x32x3.jpg "Traffic Sign 5"
 [image9]: ./images/top5result.png "Top 5 softmax probabilities for the prediction"
+[image10]: ./images/top5result2.png "Top 5 softmax probabilities for the prediction"
 
 
 
@@ -140,6 +141,8 @@ The code for making predictions on my final model is located in the 19th cell of
 Here is result image:
 
 ![alt text][image9]
+
+![alt text][image10]
 
 For the first image, the model is relatively sure that this is a "Speed limit(20km/h) sign (probability of 0.6), and the image does contain  other speed limit signs. The top five soft max probabilities were
 

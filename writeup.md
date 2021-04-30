@@ -90,9 +90,9 @@ To train the model, I used learning rate 0.0006, Adam optimizer, batch size 128,
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
-* training set accuracy of 0.997
-* validation set accuracy of 0.968
-* test set accuracy of 0.955
+* training set accuracy of 0.991
+* validation set accuracy of 0.961
+* test set accuracy of 0.953
 
 If a well known architecture was chosen:
 * What architecture was chosen? I use LeNet-5. 
@@ -121,14 +121,14 @@ Here are the results of the prediction:
 
 | Image			        |     Prediction	        					|
 |:---------------------:|:---------------------------------------------:|
-| Speed limit (20kim/h) | Speed limit (20kim/h) |
+| Speed limit (30kim/h) | Speed limit (20kim/h) |
 | Priority road | Priority road |
 | Yield	| Yield											|
 | Ahead only	| Ahead only	|
 | Stop	| Stop      			|
 
 
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of 95.5% accuracy.
+The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of 95.3% accuracy.
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
@@ -138,21 +138,21 @@ For the first image, the model is relatively sure that this is a "Speed limit(20
 
 | Probability         	|     Prediction	        					|
 |:---------------------:|:---------------------------------------------:|
-| .36         	| Speed limit(80kim/h) |
-| .51     	| Speed limit(60kim/h) |
-| .02				| Speed limit(50kim/h)	|
-| .04	      	| Speed limit(30kim/h)	|
-| .07				   | End of speed limit(80kim/h) |
+| .02        | Speed limit(70kim/h) |
+| .58     | Speed limit(30kim/h) |
+| .39		| Speed limit(20kim/h)	|
+| .01	      | Speed limit(120kim/h)	|
+| .00				  | End of speed limit(80kim/h) |
 
 For the second image is "Priority road" sign(probability of 1.0)
 
-| Probability |              Prediction               |
-| :---------: | :-----------------------------------: |
-|     .00     |                 Yield                 |
-|     .00     |         Speed limit(100kim/h)         |
-|     .00     |         Roundabout mandatory          |
-|     .00     | Right-of-way at the next intersection |
-|     1.0     |             Priority road             |
+| Probability |                     Prediction                     |
+| :---------: | :------------------------------------------------: |
+|     .00     |                Roundabout mandatory                |
+|     1.0     |                   Priority road                    |
+|     .00     |                     Keep right                     |
+|     .00     | End of no passing by vehicles over 3.5 metric tons |
+|     .00     |                     Ahead only                     |
 
 For the third image is "Yield" sign(probability of 1.0)
 
@@ -168,21 +168,21 @@ For the fourth image is "Ahed only" sign(probability of 1.0)
 
 | Probability |      Prediction      |
 | :---------: | :------------------: |
-|     .00     |   Turn right ahead   |
 |     .00     |   Turn left ahead    |
-|     .00     |      Road work       |
+|     .00     | Speed limit(60kim/h) |
+|     .00     |    Priority road     |
 |     .00     | Go straight or right |
 |     1.0     |      Ahead only      |
 
 For the fourth image is "Stop" sign(probability of 1.0) 
 
-| Probability |    Prediction    |
-| :---------: | :--------------: |
-|     .00     |      Yield       |
-|     .00     | Turn right ahead |
-|     1.0     |       Stop       |
-|     .00     |    Keep right    |
-|     .00     |    Keep left     |
+| Probability |      Prediction      |
+| :---------: | :------------------: |
+|     .00     |        Yield         |
+|     .00     |   Turn right ahead   |
+|     1.0     |         Stop         |
+|     .00     | Speed limit(60kim/h) |
+|     .00     |      Keep right      |
 
 
 

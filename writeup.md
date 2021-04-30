@@ -24,6 +24,9 @@ The goals / steps of this project are the following:
 [image6]: ./images/13_yield_32x32x3.jpg "Traffic Sign 3"
 [image7]: ./images/28_ChildrenCrossing_32x32x3.jpg "Traffic Sign 4"
 [image8]: ./images/35_AheadOnly_32x32x3.jpg "Traffic Sign 5"
+[image9]: ./images/top5result.png "Top 5 softmax probabilities for the prediction"
+
+
 
 ---
 
@@ -132,7 +135,11 @@ The model was able to correctly guess 4 of the 5 traffic signs, which gives an a
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
-The code for making predictions on my final model is located in the 72th cell of the Ipython notebook.
+The code for making predictions on my final model is located in the 19th cell of the Ipython notebook.
+
+Here is result image:
+
+![alt text][image9]
 
 For the first image, the model is relatively sure that this is a "Speed limit(20km/h) sign (probability of 0.6), and the image does contain  other speed limit signs. The top five soft max probabilities were
 
@@ -183,7 +190,6 @@ For the fourth image is "Stop" sign(probability of 1.0)
 |     1.0     |         Stop         |
 |     .00     | Speed limit(60kim/h) |
 |     .00     |      Keep right      |
-
 
 
 

@@ -117,7 +117,12 @@ Here are five German traffic signs that I found on the web:
 ![alt text][image4] ![alt text][image5] ![alt text][image6] 
 ![alt text][image7] ![alt text][image8]
 
-The speed limit image might be difficult to classify because it was classied several sign and I add epoch number, then it work well.
+The speed limit image was sorted by multiple velocities, so it was difficult to classify, and when I croped it to 32x32 pixels and increase the epoch count it works fine.
+Priority road image was classified well. I croped it to 32x32 pixels.
+Yield image was classified well. I croped it to 32x32 pixels.
+Ahead only image was classified well. I croped it to 32x32 pixels.
+Stop image was classified well. I croped it to 32x32 pixels.
+
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 

@@ -122,6 +122,7 @@ Priority road image was classified well. I croped it to 32x32 pixels.
 Yield image was classified well. I croped it to 32x32 pixels.
 Ahead only image was classified well. I croped it to 32x32 pixels.
 Stop image was classified well. I croped it to 32x32 pixels.
+There is a little noise in the background of the new image but it didn't  affect the outcome of the traffic sign recognition.
 
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
